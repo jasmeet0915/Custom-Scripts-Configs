@@ -25,9 +25,11 @@ wall="$XDG_DATA_HOME/wall"
 # the links till no more links are obtained & original file is reached
 
 [ -f "$1" ] && ln -sf "$(readlink -f "$1")" "$wall" && notify-send -i "$wall" -t 3000 "Wallpaper Changed"
-test "$1"="themes" && ls $XDG_DATA_HOME/wallpapers
+
+# command to print directories from the wallpapers directory
+# to list the different themes
+[ "$1" = "themes" ] && ls $XDG_DATA_HOME/wallpapers
 
 
 # set the wallpaper using xwallpaper
-xwallpaper --zoom "$wall" && notify-send -t 3000 "Wallpaper Changed"
-
+xwallpaper --zoom "$wall"
