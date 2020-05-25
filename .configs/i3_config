@@ -208,3 +208,6 @@ exec_always --no-startup-id dunst
 
 # set the wallpaper everytime i3 restarts
 exec_always sudo setwall
+
+# run picom on startup everytime
+exec_always picom
