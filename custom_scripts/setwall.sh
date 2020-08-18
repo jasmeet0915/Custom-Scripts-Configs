@@ -1,12 +1,13 @@
 
 #! /usr/bin/bash
 
-# Script to set wallpaper 
+# a wallpaper manager script
 
 # To Do: 1) give option to create new themes and give option
 # to directly send an image to a particular theme
 # 2) give option to view themes and ship with some themes by 
 # default
+# 3)create the wall file in XDG_DATA_HOME automatically during build of the command
 
 
 # path for the symbolic link file pointing towards the 
