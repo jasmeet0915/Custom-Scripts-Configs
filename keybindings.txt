@@ -17,6 +17,12 @@ Alt+Super+y ― increase outer horizontal gaps
 Alt+Super+o ― decrease outer horizontal gaps
 Alt+Shift+y ― increase outer vertical gaps
 Alt+Shift+o ― decrease outer vertical gaps
+Alt+b - hide/unhide status bar
+Alt+Return - toggle window from master to stack 
+Alt+i - increase number of windows in master area in tiling layout
+Alt+d - decrease number of windows in master area in tiling layout
+Alt+f - Enter floating layout
+Alt+m - enter monocle layout
 
 ---------------------------------st---------------------------------
 
