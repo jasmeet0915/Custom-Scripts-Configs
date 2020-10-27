@@ -23,6 +23,7 @@ Alt+i - increase number of windows in master area in tiling layout
 Alt+d - decrease number of windows in master area in tiling layout
 Alt+f - Enter floating layout
 Alt+m - enter monocle layout
+Alt+Shift+s - switch audio sink through dmenu (custom)
 
 ---------------------------------st---------------------------------
 
